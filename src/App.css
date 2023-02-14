@@ -1,0 +1,11 @@
+/* There is only some stuff to control the responsiveness
+as I was not liking the results from bootstrap */
+
+@media screen and (max-width: 768px) { 
+	#todos-list {
+		flex-direction: column;
+	} 
+	#todo-item {
+		padding-bottom: 10px;
+	} 
+}
